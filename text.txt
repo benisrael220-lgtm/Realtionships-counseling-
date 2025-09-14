@@ -1,0 +1,129 @@
+Index.html 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doc Israel - Relationship Counseling</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #d94e5d;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #d94e5d;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .contact {
+      text-align: center;
+      padding: 2rem;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 5px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      background: #d94e5d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Doc Israel - Relationship Counseling</h1>
+    <p>Helping Couples & Singles Heal, Grow, and Find Clarity</p>
+  </header>
+
+  <nav>
+    <a href="#couples">For Couples</a>
+    <a href="#singles">For Singles</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="couples">
+    <div class="card">
+      <h2>Advice for Couples</h2>
+      <p>Relationships require effort, communication, and understanding. I help couples navigate conflict, rebuild trust, and rediscover love.</p>
+      <ul>
+        <li>Conflict resolution strategies</li>
+        <li>Strengthening communication</li>
+        <li>Healing after infidelity</li>
+        <li>Keeping the spark alive</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="singles">
+    <div class="card">
+      <h2>Advice for Singles</h2>
+      <p>Whether you’re healing from heartbreak or looking for meaningful love, I’ll guide you to understand yourself better and prepare for a healthy relationship.</p>
+      <ul>
+        <li>Healing after a breakup</li>
+        <li>Self-love & confidence building</li>
+        <li>Dating with clarity and intention</li>
+        <li>Recognizing toxic relationships early</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card contact">
+      <h2>One-on-One Consultation</h2>
+      <p>Reach out to me directly for private sessions.</p>
+      <p><b>Phone:</b> <a href="tel:+254741762047">0741762047</a></p>
+      <p><b>Email:</b> <a href="mailto:benkarimi220@gmail.com">benkarimi220@gmail.com</a></p>
+      <a href="https://wa.me/254741762047" target="_blank">Chat on WhatsApp</a>
+      <a href="mailto:benkarimi220@gmail.com">Book a Session</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Doc Israel | Relationship Counseling</p>
+  </footer>
+</body>
+</html>
